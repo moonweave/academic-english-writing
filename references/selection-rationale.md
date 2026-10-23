@@ -1,28 +1,38 @@
 # Selection rationale and stopping rule
 
-Date: 2026-10-23. Editorial selection for materials, polymers, and electronic engineering. This is not a survey of all excellent scientific writing or a test of scientific correctness.
+Checked 2026-10-23. This patch distinguishes documented research influence/attention from editorial prose quality. Eight core papers meet both criteria at the stated passage scope; three auxiliary papers remain for specialist needs. No model weights were trained. All selections remain provisional pending the user's writing preferences.
 
-## How quality was judged
+## Two independent selection questions
 
-Prefer passages with a specific question, an interpretable comparison, visible observation/inference boundaries, coherent information order, and grammar that expresses the intended relation. Journal prestige, citation counts, and author reputation were not treated as writing-quality scores. Select local strengths; a scientifically important paper may contain awkward language or overstatement elsewhere.
+1. **Why is the research worth consulting?** Record a primary institutional highlight, formal recognition or Crossref reference count. Recent here means 2024–2025 relative to this inspection date, not necessarily currently trending. Institutional press releases establish promotion by the institution, not independent consensus or demonstrated adoption. Raw counts are dated database observations, not comparable impact scores across ages and fields.
+2. **Why use this prose?** Inspect the accessible passage in context for information order, grammatical relationships, defined referents and claim conditions. The table below records the curator's local assessment and a transfer risk. No source was selected merely because it appeared in Nature or Science. Neither citations nor Nobel recognition certify writing quality; no external best-written-paper award is claimed.
 
-The initial twelve candidates were screened to different depths. Seven papers entered the initial library. Revision added two papers specifically for synthesis/characterization and circuit measurements, plus a Methods pattern from an existing source: nine papers now supply nineteen patterns. “Full text accessible” does not mean every page was closely read. No language-model training was performed, no paper PDFs are distributed, and these seven selections are not claimed as the world's best-written papers.
+## Core selection record
 
-## Included
+Crossref counts below were read directly from its public work API on 2026-10-23; [the snapshot](attention-snapshot.json) records DOI, exact returned title, count and endpoint. Counts represent indexed citing records, not a comprehensive citation total, and will change. They support influence/uptake within this candidate set, without a percentile or a universal threshold.
 
-| Paper | Why this passage earns a place | Scope |
+| ID / paper | Research influence or attention evidence | Editorial prose assessment / transfer risk | Inspected scope |
+| --- | --- | --- | --- |
+| M1 Sun 2012 | 5,417 Crossref citing records | Concession places emphasis on the finding; named networks carry distinct mechanism verbs. Risk: confident mechanistic present tense needs evidence in a new study. | Named opening and mechanism paragraphs in author-hosted publisher PDF |
+| M2 Novoselov 2004 | 63,645 Crossref records; [Nobel scientific background](https://www.nobelprize.org/uploads/2018/06/advanced-physicsprize2010-2.pdf) discusses this graphene work | A physical requirement precedes the obstacle; measurements precede the explanatory model. Risk: model adequacy is not uniqueness. | Named passages in 2004 author preprint v1, not verified publisher wording |
+| M3 Zhao 2024 | 190 Crossref records; [Georgia Tech research highlight, 2024-01-03](https://news.gatech.edu/news/2024/01/03/researchers-create-first-functional-semiconductor-made-graphene) | The material label is tied immediately to its physical state. Risk: the abstract's broad comparisons and closing suitability claim need their own evidence; do not imitate them automatically. | Publisher abstract only; body behind subscription |
+| P1 Guerre 2020 | 645 Crossref records | Attributed conflicting findings stay separate from possible explanations; benefit and cost remain adjacent. Risk: a review summarizes others' evidence. | Named minireview subsections in Europe PMC XML |
+| P4 Cheng 2024 | 102 Crossref records; [RIKEN press release, 2024-11-26](https://www.riken.jp/en/news_pubs/research_news/pr/2024/20241122_1/index.html) and [RIKEN follow-up, 2025-03-27](https://www.riken.jp/en/news_pubs/research_news/rr/20250327_1/index.html) | A stability predicate carries its exception in the same clause. Risk: dense chemical noun phrases and promotional novelty wording are not general language targets. | Abstract reproduced by author institution; PDF body retrieval unreliable |
+| E1 Pazos 2025 | 109 Crossref records; [NUS-authored release, 2025-03-27](https://www.eurekalert.org/news-releases/1078569) | The operating condition bounds capability; component intervention precedes its added function. Risk: device-level evidence does not establish whole-system efficiency. | Named abstract and Main passages inspected in publisher text during initial curation |
+| E2 Indiveri 2011 | 1,223 Crossref records | Functional responsibilities precede circuit details; comparison uses consistent axes. Risk: a research paragraph rarely needs the full review taxonomy. | Named sections in publisher full text |
+| E3 Shannon 1948 | 56,032 Crossref records for Part I only; [Bell Labs retrospective](https://www.nokia.com/bell-labs/publications-and-media/publications/so-rices-contributions-to-shannon-theory/) identifies its foundational influence | Definitions persist through a decomposition; reasons for a mathematical choice perform distinct jobs. Risk: historical framing and theory exposition do not dictate modern experimental prose. | Introduction of corrected reprint |
+
+The local prose assessments are editorial judgments by the curating agent, not independent human reviews or claims that whole papers are uniformly excellent. For new M3 and P4, only abstract patterns enter the library; neither has been promoted to a body-text exemplar. Two accessible, bounded additions are more useful than unverified full-text claims.
+
+## Auxiliary selection record
+
+| ID | Retained use | Why outside the core |
 | --- | --- | --- |
-| Sun 2012 | Quantitative motivation and concrete mechanism exposition | Research letter; materials and polymers |
-| Novoselov 2004 | Physical obstacle and observation-to-model progression | Author preprint; materials/electronics |
-| Guerre 2020 | Conflicting literature and explicit trade-offs | Polymer minireview |
-| Zheng 2024 | Time-dependent observations and artifact checks | Polymer domain argument; not a general grammar model |
-| Pazos 2025 | Condition-dependent device claims and implementation scope | Device research |
-| Indiveri 2011 | Functional decomposition and multidimensional comparison | Circuit review |
-| Shannon 1948 | Precise definitions and justified mathematical representation | Theory; corrected reprint |
-| Hojo 2026 | Synthetic modification and explicit characterization methods | Polymer-catalyst research; named local passages |
-| Firlej 2023 preprint | Sweep conditions and component power accounting | SAR ADC measurements; versioned author preprint |
+| P2 Zheng 2024 | Temporal sequence, alternative checks, ordered DSC procedure | Relevant inverse-vulcanization argument; awkward collocations make it unsuitable as a general grammar target. External attention was not established. |
+| P3 Hojo 2026 | Synthetic purpose and characterization reporting | Local methods coverage; no established influence/attention evidence gathered. Recency alone is insufficient. |
+| E4 Firlej 2023 v1 | ADC stimulus conventions and component power accounting | Useful measurement reporting in an author preprint; no external attention case established here. |
 
-Source links and precise passage locators are in [the domain files](paper-patterns.md). The strongest models for concise argument construction in this set are the selected Sun, Novoselov, and Shannon passages; that is the curator's judgment, not an external award or ranking.
+The auxiliary label records this curation's evidence, not a finding that these papers are scientifically unimportant. Preserve their existing locators, scope and limits.
 
 ## Not included in the pattern library
 
@@ -32,12 +42,10 @@ Source links and precise passage locators are in [the domain files](paper-patter
 - White 2001, [autonomic healing](https://doi.org/10.1038/35057232): bibliographic record confirmed; body text not obtained. Scientific importance alone cannot justify style selection.
 - Shen 2017, [coherent nanophotonic circuits](https://doi.org/10.1038/nphoton.2017.93): inspected opening of the [author-hosted 2016 v1 preprint](https://ciqm.harvard.edu/uploads/2/3/3/4/23349210/shen2017.pdf). Version differs from the published paper, and the inspected contribution overlaps existing architecture/scope patterns. Do not present preprint wording as verified final prose.
 
-## Why stop at nine after revision
+## Why stop at eight core and three auxiliary sources
 
-The nineteen patterns cover problem definition, quantitative motivation, comparison, experiment rationale, time evolution, alternative explanations, literature disagreement, trade-offs, architecture, and evidence-bounded claims across research, review, and theory. Another paper should fill a concrete uncovered need, not merely increase the count. Keep domain files separate so every edit does not load the whole collection.
+The core now spans materials, polymer chemistry and electronics, research/review/theory, established influence and three institutionally highlighted 2024–2025 studies. Fourteen core patterns cover the shared rhetorical needs; seven auxiliary patterns fill concrete methods and measurement gaps. Adding two abstract patterns corrects a specific coverage/attention gap without pretending that eleven is a measured optimum.
 
-This is a practical starting size, not an empirically proven optimum. Add a paper when a real drafting task exposes a missing pattern or the user identifies a preferred exemplar. The added passages address ADC measurement reporting and synthesis/characterization exposition; the DSC pattern covers ordered Methods prose. Remaining gaps include RF measurement narratives, exhaustive synthetic-procedure coverage, and journal- and author-specific voice preferences. The two added papers were selected for these local decisions, not claimed uniformly excellent. Attempts to retrieve older O-ATRP continuous-flow and perylene articles through Europe PMC failed; those texts were not treated as inspected sources.
+Reject redundant additions, inaccessible body-text claims and citation-based prose rankings. Add another paper when it contributes a missing writing decision, has inspectable supporting prose, and has a recorded influence/attention case if presented as core. RF measurement narratives, broader synthetic procedures, current 2026 highlights and user-specific style preferences remain gaps. This patch does not claim an exhaustive search of 2026 literature.
 
-## Operational depth and effectiveness
-
-Revision expanded every existing pattern from a summary into a short source fragment, grammatical explanation, original application and limits. This is a change in teaching content, not by itself evidence of improved writing. The held-out comparison in evals/protocol.md defines a separate check; report its actual results and limitations, including ties or regressions.
+Existing comparative writing results remain unchanged: mixed preferences and ties, with no clear overall superiority. Corpus provenance and better retrieval labels are verified separately from any future writing-performance improvement.

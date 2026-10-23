@@ -4,7 +4,7 @@ Persist analytical guidance, not a claim that model weights changed. The quality
 
 ## Select and inspect
 
-Use user-selected papers first. If asked to find examples, explain selection criteria: a clear question, traceable claims, coherent paragraphs, and precise treatment of evidence. Label agent-selected examples provisional until endorsed. A paper can contain a useful pattern and awkward sentences elsewhere.
+Use user-selected papers first. If asked to find examples, explain selection criteria: a clear question, traceable claims, coherent paragraphs, and precise treatment of evidence. Label agent-selected examples provisional until endorsed. A paper can contain a useful pattern and awkward sentences elsewhere. For a core exemplar, record research influence/attention and a separate passage-level prose judgment using [selection-rationale.md](selection-rationale.md). Date metrics, identify institutional promotion, and retain access/version limits. Use auxiliary status for a useful specialist passage without that core evidence; recency or journal prestige alone cannot promote it.
 
 Verify title, authors, year, DOI or stable URL, and actual access scope. Prefer legally available primary-source text or user-provided manuscripts. Do not bypass restrictions. An abstract supports abstract-level analysis only; an indexed excerpt supports that excerpt only. For PDFs, identify page and section and check extraction against the document when unreliable.
 
