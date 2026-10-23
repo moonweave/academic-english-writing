@@ -20,11 +20,14 @@ Record in prose, using the existing library format:
 - Abstract structure: information order, clause relationship, grammatical choices, and their function.
 - Preconditions: evidence or context needed before the pattern is valid.
 - Failure modes: overclaiming, confused scope, or repetition.
-- Optional original example on different content, explicitly marked invented.
+- A short, accurately checked source fragment sufficient to identify the grammatical choice; obey quotation limits across the entire source.
+- An original application on different content, explicitly marked invented. Explain the subject/verb, clause relation, tense or focus choice it demonstrates; do not merely label it “clear” or “concise”.
 
 Separate source observations from interpretation. Prefer paraphrased analysis. Attribute indispensable short quotes and respect applicable limits; do not reconstruct long passages through multiple short quotes. Do not copy distinctive wording and substitute technical nouns. Grammar and rhetorical organization are reusable; scientific claims still need appropriate scientific citations.
 
 ## Store and retrieve
+
+Before storing an entry, check that its analysis can guide an actual new sentence, its example obeys its stated preconditions, and it adds a useful decision beyond an existing entry. If the source cannot be inspected, mark the limitation rather than inventing a fragment.
 
 When expansion is requested, add entries to the domain files linked from `paper-patterns.md`; add a new file only when an existing domain file becomes difficult to navigate. Link new files from an existing entrypoint. Deduplicate by DOI plus passage location. Persist user preferences only when actually expressed.
 

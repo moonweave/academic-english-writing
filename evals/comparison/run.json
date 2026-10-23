@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-23",
+  "conditions": [
+    "no skill",
+    "old skill",
+    "revised skill"
+  ],
+  "old_skill_commit": "fef188f26c25a7a5b4b73afad43ff4d7b7dae6c6",
+  "old_runtime_sha256": "5849ff7544b6e43e634002fee3c0d7cd6d31c54359a611ab05a3a8819b905011",
+  "revised_runtime_sha256": "5d8cb7dc162fe28066e28066f8b88498fe2a9c815dcb7936d904c5b286668624",
+  "digest_method": "Sorted SKILL.md plus references/*.md; hash each relative path, NUL byte, UTF-8 content with trailing whitespace normalized to one newline.",
+  "writers": 3,
+  "cases_per_writer": 3,
+  "samples_per_condition_case": 1,
+  "independent_judges": 2,
+  "model_metadata": "Inherited harness model/configuration; no explicit overrides. Exact model identifier and sampling parameters were not captured.",
+  "blinding": "A/B/C labels randomized separately per case. Both judges were given only original requests, notes and anonymous outputs. Mapping revealed after both completed.",
+  "source_data": "All research briefs are synthetic and public-safe. No unpublished user manuscript was used.",
+  "evaluation_order": "Both original writers ran before runtime revision; revised writer ran after runtime snapshot was frozen; both judges ran afterward.",
+  "limits": [
+    "One sample per condition/case, three cases, no statistical inference.",
+    "Same harness/model family; judges are agents, not human acceptance.",
+    "Judges share the same anonymous ordering; no order-sensitivity study.",
+    "Source documentation and runtime payload changed together; no ablation isolates which component caused a preference.",
+    "Generation is not guaranteed reproducible from archived outputs; prompts, outputs and judgments are available for inspection."
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "abstract": {
+    "factual_gate": {
+      "A": {
+        "hard_failure": false,
+        "reason": "All numerical values, preparation controls, n, sample SD, bending conditions, and measurement limits match the notes. “Doubled the mean measured conductivity” is the supported ratio 1.8/0.9, not a statistical-significance claim. No invented facts or material omissions."
+      },
+      "B": {
+        "hard_failure": false,
+        "reason": "All measurements and conditions match; “a modest increase in mean modulus” describes the numerical means without claiming significance. No invented mechanisms. The final sentence compresses the explicitly unmeasured interfacial resistance and device temperatures into “remain unresolved”; this is a loss of specificity, not a fabricated result."
+      },
+      "C": {
+        "hard_failure": false,
+        "reason": "All measurements, matched preparation conditions, sample statistics, and bending conditions match. “Modest numerical increase” preserves the absence of hypothesis testing; unmeasured resistance and device temperatures and unresolved mechanism are explicit. No invented facts or material omissions."
+      }
+    },
+    "preference": [
+      "A",
+      "C"
+    ],
+    "reasons": [
+      "All satisfy 140–180 words: A 168, B 170, C 160 by whitespace counting. The differences between A and C are too small to justify a unique winner.",
+      "A gives the clearest quantitative takeaway in “doubled the mean measured conductivity” and a precise closing limit: “device-level temperature reduction remains untested.” Its sequence moves cleanly from controlled comparison to measurements to bounded contribution.",
+      "C is slightly leaner and equally idiomatic; “a modest numerical increase in modulus” is especially well calibrated to untested differences. Its final sentence states exactly what was not measured.",
+      "B is coherent and grammatical, but the closing list “Interfacial resistance, the underlying mechanism, and device-level thermal performance remain unresolved” combines an unmeasured quantity, an unexplained cause, and an untested application less precisely than A or C."
+    ],
+    "minor_issues": {
+      "A": "“Randomly filled films” is slightly less exact terminology than “randomly dispersed films,” but context fixes its meaning.",
+      "C": "The contribution is expressed without the useful explicit twofold ratio; the numerical results still make it fully recoverable."
+    }
+  },
+  "discussion": {
+    "factual_gate": {
+      "A": {
+        "hard_failure": false,
+        "reason": "Preserves all quantitative results and sample qualifications; treats rearrangement/scission as alternatives and SEC as soluble-fraction evidence only. Correctly makes the absent ester-only control and future end-group analysis explicit. No invented facts or material omissions."
+      },
+      "B": {
+        "hard_failure": false,
+        "reason": "All reported values and measurement restrictions match. “Neither observation excludes low levels of ester cleavage” is a cautious interpretation, not evidence of observed cleavage. Proposed controls remain future work. The current absence of an ester-only control is implied rather than directly stated; this is a minor omission, not invention."
+      },
+      "C": {
+        "hard_failure": false,
+        "reason": "All quantitative values, uncertainty limits, and SEC population boundaries match. The text does not infer chemical stability or establish a unique mechanism. It explicitly labels the follow-up tests as future work. The absent ester-only control is not directly identified as a current limitation; this is an omission rather than an invented fact."
+      }
+    },
+    "preference": [
+      "A"
+    ],
+    "reasons": [
+      "All satisfy 160–210 words: A 204, B 189, C 197.",
+      "A most fully develops the discussion rather than merely listing caveats: “Attribution to disulfide chemistry also remains uncertain without an ester-only control” identifies why the missing experiment matters, followed immediately by the discriminating next step.",
+      "A also links observations to limitations locally: the carbonyl result “does not exclude low levels of ester cleavage,” and the SEC shoulder is limited by “polystyrene calibration and exclusion of the insoluble network.” This gives the passage a clear interpretive progression without claiming a mechanism.",
+      "B is a close alternative with clean sentences, but “these tests remain proposed work” sounds like an editorial status note, and the missing control is less directly tied to the present causal uncertainty.",
+      "C is coherent and precise overall, but repeats the stability limitation across “do not establish chemical stability” and “does not exclude low levels of ester cleavage”; the standalone “These are future tests” interrupts the manuscript voice."
+    ]
+  },
+  "results": {
+    "factual_gate": {
+      "A": {
+        "hard_failure": false,
+        "reason": "All converter specifications, measured values, representative-die qualification, accounting exclusions, and temperature/comparison limits match. No simulated result is presented as measured, no population average is claimed, and no new figure of merit is computed. No invented facts or material omissions."
+      },
+      "B": {
+        "hard_failure": false,
+        "reason": "All numerical values and conditions match. “Lower dynamic performance” is supported specifically by the reported lower SNDR; it does not assert a new SFDR measurement. The complete-setup power exclusion and uncharacterized temperature dependence follow directly from the notes. No invented facts or material omissions."
+      },
+      "C": {
+        "hard_failure": false,
+        "reason": "All measured values, fabrication and operating conditions, representative-die scope, core-power/core-area exclusions, and untested temperature behavior match. No unsupported prior-work advantage or figure of merit is added. No invented facts or material omissions."
+      }
+    },
+    "preference": [
+      "B",
+      "C"
+    ],
+    "reasons": [
+      "All satisfy 150–190 words: A 173, B 167, C 171. B and C have different small advantages without a decisive overall quality gap.",
+      "B organizes the assessment into performance and resource accounting. “This power figure excludes the external reference driver and clock generator” is immediately interpreted as excluding “the complete conversion setup,” giving the reader a useful accounting boundary in plain language.",
+      "C puts “65 nm CMOS” and the representative-die qualification up front, then presents dynamic performance, linearity, power, and area in an economical sequence. “Under the same sampling conditions” keeps the input-frequency comparison properly bounded; expanded metric names make the passage self-contained.",
+      "A is accurate and idiomatic, but postpones “Fabricated in a 65 nm CMOS process” to the area sentence and ends with the abstract administrative phrasing “within the stated operating and accounting boundaries.” B and C provide slightly cleaner reader organization."
+    ],
+    "minor_issues": {
+      "B": "“Lower dynamic performance” could be narrowed to “lower SNDR”; the reported measurements themselves are clear.",
+      "C": "“These power and area boundaries delimit the reported core metrics” is somewhat redundant after the explicit exclusions."
+    }
+  }
+}

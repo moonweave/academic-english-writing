@@ -1,0 +1,121 @@
+{
+  "abstract": {
+    "factual_gate": {
+      "A": {
+        "hard_failure": false,
+        "reason": "All numerical values, conditions, sample/SD definitions and bending retention are faithful. \"Doubled the mean measured conductivity\" is an exact descriptive ratio, not an unsupported significance claim. No invented mechanism or performance claim.",
+        "omissions": [],
+        "invented_facts": []
+      },
+      "B": {
+        "hard_failure": false,
+        "reason": "All reported measurements and limitations are faithful. \"Modest increase in mean modulus\" is descriptive and is explicitly limited to tested conditions. No invented mechanism or statistical significance.",
+        "omissions": [
+          "Does not explicitly say that interfacial thermal resistance was not measured; instead calls it unresolved."
+        ],
+        "invented_facts": []
+      },
+      "C": {
+        "hard_failure": false,
+        "reason": "Measurements, conditions, independent-film count, uncertainty definition and scope are preserved. No unsupported significance, mechanism or device-performance claim.",
+        "omissions": [],
+        "invented_facts": []
+      }
+    },
+    "preference": [
+      "A",
+      "C"
+    ],
+    "reasons": [
+      "All candidates satisfy the 140–180 word range (A 168, B 170, C 160 whitespace-delimited words).",
+      "A gives a compact quantitative interpretation in \"doubled the mean measured conductivity\" and closes with the precise scope \"within the tested formulation and conditions.\" C is equally coherent and slightly leaner, with particularly clear limitations: \"Interfacial thermal resistance and device temperatures were not measured.\" The difference between these two does not justify a sole winner.",
+      "B is fluent, but \"Interfacial resistance, the underlying mechanism, and device-level thermal performance remain unresolved\" collapses distinct measurement and interpretation limitations into a less precise list."
+    ],
+    "minor_issues": {
+      "A": [
+        "The final colon puts the untested device outcome beside mechanism evidence somewhat awkwardly."
+      ],
+      "C": [
+        "\"Modest numerical increase\" is cautious but slightly less natural than \"modest increase in mean modulus.\""
+      ]
+    }
+  },
+  "discussion": {
+    "factual_gate": {
+      "A": {
+        "hard_failure": false,
+        "reason": "All measurements, unresolved explanations, SEC population restriction, missing control and proposed future analyses are represented faithfully. No unsupported chemical attribution, significance or reprocessing claim.",
+        "omissions": [],
+        "invented_facts": []
+      },
+      "B": {
+        "hard_failure": false,
+        "reason": "Preserves the measurements and distinguishes soluble-fraction SEC from the insoluble network. Mechanistic assignments remain conditional and proposed tests remain future work. \"Neither observation excludes low levels of ester cleavage\" is a defensible cautious interpretation, not an invented result.",
+        "omissions": [
+          "Does not explicitly state that an ester-only control was unavailable, although it proposes that control as future work."
+        ],
+        "invented_facts": []
+      },
+      "C": {
+        "hard_failure": false,
+        "reason": "All numerical results and measurement scopes are faithful. Chemical stability is appropriately left unestablished; no invented mechanism or application demonstration.",
+        "omissions": [
+          "Does not explicitly state the absence of the ester-only control, although the control is proposed as future work."
+        ],
+        "invented_facts": []
+      }
+    },
+    "preference": [
+      "A",
+      "B"
+    ],
+    "reasons": [
+      "All satisfy the 160–210 word range (A 204, B 189, C 197).",
+      "A connects observations to the attribution problem especially well: \"Attribution to disulfide chemistry also remains uncertain without an ester-only control.\" Its separate DSC and FTIR sentences preserve what each measurement can resolve. B is more compact and groups the related SEC evidence coherently: \"supports a change in the soluble population, rather than directly characterizing the insoluble network.\" These strengths balance; neither has a decisive overall advantage.",
+      "C repeats the carbonyl limitation within one sentence (\"absence of a resolvable FTIR ester carbonyl shift\" followed by \"a constant carbonyl position does not exclude...\") and then breaks its connected discussion with \"These are future tests.\""
+    ],
+    "minor_issues": {
+      "A": [
+        "\"Polystyrene calibration and exclusion of the insoluble network limit its interpretation\" is correct but less specific about the distinct limitations than B."
+      ],
+      "B": [
+        "Explicitly naming the unavailable control would make the attribution limitation clearer."
+      ]
+    }
+  },
+  "results": {
+    "factual_gate": {
+      "A": {
+        "hard_failure": false,
+        "reason": "Preserves all converter measurements and operating conditions, representative-die scope, power and area exclusions, temperature limitation and lack of harmonized comparison. No invented figure of merit or superiority claim.",
+        "omissions": [],
+        "invented_facts": []
+      },
+      "B": {
+        "hard_failure": false,
+        "reason": "All values and accounting boundaries are correct. The decrease in SNDR supports the qualified comparison of dynamic performance at the two measured input frequencies. Complete-setup power and temperature dependence are correctly left uncharacterized.",
+        "omissions": [],
+        "invented_facts": []
+      },
+      "C": {
+        "hard_failure": false,
+        "reason": "All measurements, representative-die qualification and accounting boundaries are faithfully stated. No simulated result is presented as measured, no population average is invented, and no new figure of merit or superiority claim appears.",
+        "omissions": [],
+        "invented_facts": []
+      }
+    },
+    "preference": [
+      "B"
+    ],
+    "reasons": [
+      "All satisfy the 150–190 word range (A 173, B 167, C 171).",
+      "B organizes dynamic/static measurements and then power/area accounting into two purposeful paragraphs. \"This power figure excludes the external reference driver and clock generator and therefore does not describe the power of the complete conversion setup\" explains the practical accounting consequence directly.",
+      "A postpones fabrication context until \"Fabricated in a 65 nm CMOS process\" near the end, after the operating and power results. Its closing \"within the stated operating and accounting boundaries\" is more abstract than B's direct explanation. C opens cleanly and expands acronyms, but \"These power and area boundaries delimit the reported core metrics\" spends words restating the existence of boundaries rather than helping interpret them."
+    ],
+    "minor_issues": {
+      "B": [
+        "SNDR, SFDR, DNL and INL are not expanded. This is conventional in specialist converter prose, but C is more self-contained for a broader readership."
+      ]
+    }
+  }
+}
