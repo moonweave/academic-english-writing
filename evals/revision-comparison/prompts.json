@@ -1,0 +1,17 @@
+[
+  {
+    "id": "grammar_only",
+    "request": "Correct English grammar only. Preserve the two-sentence structure, technical terms, numbers, units and scientific meaning. Return only the corrected passage.",
+    "input": "The specimens was cooled from 130 °C to 20 °C at 4 °C/min, and their mass were recorded before immersion. Each specimen were then immersed in toluene for 24 h; the resulting mass changes does not, by itself, establish network degradation."
+  },
+  {
+    "id": "paragraph_revision",
+    "request": "Revise this Results/Discussion paragraph into natural academic English. Improve its organization and remove promotional or administrative wording. Retain the scientific observations and qualifications, but avoid a checklist of caveats. Do not add results or mechanisms. Return only the revised paragraph.",
+    "input": "This work represents a remarkable advancement in pressure-sensor technology. These measurement boundaries delimit the reported sensor metrics. Five separately prepared devices were measured at 22 °C. The mean sensitivity increased from 0.8 to 1.3 kPa−1 after surface treatment over the pressure range 0–2 kPa. We have not performed a statistical hypothesis test. There was no resolvable change in film thickness. We observed a larger contact area under load by optical imaging after treatment. This means the treatment proves that contact area is the only origin of the improved sensitivity. However, the mechanical modulus was not measured and changes in bulk stiffness therefore cannot be ruled out. A matched-modulus control would help distinguish these explanations. These tests remain proposed work. The sensor was operated for 200 loading cycles at 1 kPa and retained 94% of its initial response. It is not possible to claim long-term durability beyond these conditions."
+  },
+  {
+    "id": "preserve_voice",
+    "request": "Check this passage for academic English. Make changes only if needed for correctness or clarity; preserve the author’s voice, emphasis and sentence rhythm. Return only the passage.",
+    "input": "The interface, rather than the bulk film, set the limit on adhesion. We reached this conclusion by changing the surface treatment while keeping the film formulation and cure unchanged. Untreated specimens separated at the interface; treated specimens failed within the film. The result does not identify the bonding mechanism, but it locates the weakest link under the conditions tested. For this system, that distinction is enough to guide the next experiment."
+  }
+]

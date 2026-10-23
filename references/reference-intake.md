@@ -20,7 +20,8 @@ Record in prose, using the existing library format:
 - Abstract structure: information order, clause relationship, grammatical choices, and their function.
 - Preconditions: evidence or context needed before the pattern is valid.
 - Failure modes: overclaiming, confused scope, or repetition.
-- A short, accurately checked source fragment sufficient to identify the grammatical choice; obey quotation limits across the entire source.
+- A short, accurately checked source excerpt that includes the grammatical unit being analyzed; obey quotation limits across the entire source. A noun-phrase anchor alone cannot demonstrate a passive clause. When a quotation covers only part of the relationship, say exactly which part.
+- A labeled editorial schematic identifying the subject, predicate and relevant clause/complement relationship. Abstract the grammar rather than reconstructing the source’s distinctive wording; do not present a paraphrased schematic as a quotation.
 - An original application on different content, explicitly marked invented. Explain the subject/verb, clause relation, tense or focus choice it demonstrates; do not merely label it “clear” or “concise”.
 
 Separate source observations from interpretation. Prefer paraphrased analysis. Attribute indispensable short quotes and respect applicable limits; do not reconstruct long passages through multiple short quotes. Do not copy distinctive wording and substitute technical nouns. Grammar and rhetorical organization are reusable; scientific claims still need appropriate scientific citations.

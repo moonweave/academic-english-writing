@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-23",
+  "pre_patch_commit": "3015588918c9ddb84f4caef52ed9b7f635ac8754",
+  "conditions": [
+    "before",
+    "after"
+  ],
+  "writers": 2,
+  "cases_per_writer": 3,
+  "samples_per_condition_case": 1,
+  "judges": 2,
+  "pre_patch_runtime_sha256": "5d8cb7dc162fe28066e28066f8b88498fe2a9c815dcb7936d904c5b286668624",
+  "evaluated_patch_runtime_sha256": "567a71a353b65da992e3e0da28dabed783d73dc7cac8fbfc45314fa14af02d89",
+  "published_patch_runtime_sha256": "e4e42ca9c2741c907f12770f4338d015f75d65dcbd2dadf222b7e10e3654f470",
+  "digest_method": "Sorted SKILL.md plus references/*.md; relative path, NUL, UTF-8 text with trailing whitespace normalized to one newline.",
+  "post_generation_changes": [
+    "Corrected M1a schematic locator wording from Source clause quoted below to Quoted source clause. No grammatical rule, example or runtime routing changed."
+  ],
+  "model_metadata": "Inherited harness model/configuration with no explicit override; exact model identifier and sampling parameters were not captured.",
+  "design": "New synthetic revision inputs were frozen before patching; no prior drafting case was reused. Case two deliberately targets a known administrative-wording failure family and is a diagnostic regression check, not evidence of generalization to all manuscript editing.",
+  "blinding": "A/B labels randomized separately per case. Judges saw only request, input and anonymous outputs; labels revealed after both assessments completed.",
+  "limits": [
+    "No no-skill baseline in this bounded patch check.",
+    "One sample per condition/case; agent judges; no human acceptance or statistical inference.",
+    "Judges shared the anonymous order; no order-sensitivity study.",
+    "Grammar correction and preservation tasks have limited stylistic headroom; ties are appropriate."
+  ]
+}

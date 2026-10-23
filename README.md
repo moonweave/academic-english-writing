@@ -2,7 +2,7 @@
 
 A Codex skill for drafting and revising clear research prose in **materials science, polymers, and electronic engineering**.
 
-It combines writing decisions, original worked examples, and **19 operational patterns from 9 research, review, and theory papers**. Each pattern pairs a short source fragment with clause/tense/focus analysis, an original application on different content, and transfer limits.
+It combines writing decisions, original worked examples, and **19 operational patterns from 9 research, review, and theory papers**. Each pattern pairs a short source grammatical unit with a labeled editorial structure diagram and clause/tense/focus analysis, an original application on different content, and transfer limits.
 
 This is an instruction and reference library, not a fine-tuned model. “Natural writing” means precise, coherent prose with a specific scientific argument. It does not mean detector evasion or decorative synonym replacement.
 
@@ -53,6 +53,6 @@ The library selects useful passages, not papers declared universally excellent. 
 
 ## Verification and limits
 
-Skill frontmatter, local reference links, unfinished scaffolds, whitespace, and secret scanning are checked locally. The historical smoke cases were self-reviewed. A separate comparison uses isolated no-skill, old-skill and revised-skill writers with anonymous outputs and independent evaluators; see the [recorded results](evals/comparison/results.md). This run found no clear overall writing-quality gain; preferences were mixed. This is a small case study, not a cross-model benchmark. No CI workflow is configured.
+Skill frontmatter, local reference links, unfinished scaffolds, whitespace, and secret scanning are checked locally. The historical smoke cases were self-reviewed. A separate comparison uses isolated no-skill, old-skill and revised-skill writers with anonymous outputs and independent evaluators; see the [recorded results](evals/comparison/results.md). This run found no clear overall writing-quality gain; preferences were mixed. A separate [revision patch check](evals/revision-comparison/results.md) covers grammar-only correction, substantive revision and preservation of effective prose. Both versions passed all three cases with overall ties; the patched paragraph removed a redundant status clause. These are small case studies, not a cross-model benchmark. No CI workflow is configured.
 
 The nine-paper library size reflects coverage and overlap judgments, not a measured optimum. The revision adds synthesis/characterization exposition, ordered thermal Methods and SAR ADC measurements; RF measurement writing and broader synthetic-procedure coverage remain opportunities for expansion. Actual author/journal preferences should guide subsequent curation.

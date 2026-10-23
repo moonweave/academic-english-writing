@@ -1,0 +1,60 @@
+{
+  "grammar_only": {
+    "per_candidate": {
+      "A": {
+        "pass": true,
+        "substantive_issues": [],
+        "minor_issues": []
+      },
+      "B": {
+        "pass": true,
+        "substantive_issues": [],
+        "minor_issues": []
+      }
+    },
+    "preference": ["A", "B"],
+    "reasons": [
+      "The outputs are identical. Both correct subject–verb agreement and the plural reflexive without restructuring the two sentences or changing the technical content, quantities, units, or scientific qualification."
+    ]
+  },
+  "paragraph_revision": {
+    "per_candidate": {
+      "A": {
+        "pass": true,
+        "substantive_issues": [],
+        "minor_issues": [
+          "The clause 'but has not yet been performed' retains redundant process-status commentary after the prospective matched-modulus control; deleting it would better satisfy the request to remove administrative wording."
+        ]
+      },
+      "B": {
+        "pass": true,
+        "substantive_issues": [],
+        "minor_issues": []
+      }
+    },
+    "preference": ["A", "B"],
+    "reasons": [
+      "Both retain the sample count, temperature, sensitivity values and pressure range, absence of statistical testing, thickness observation, optical contact-area observation, unresolved stiffness alternative, proposed control, and bounded cycling result.",
+      "Both appropriately correct the original unsupported sole-mechanism claim without inventing a demonstrated mechanism or additional results.",
+      "Both organize the observations and limitations coherently and remove the promotional opening. B handles the prospective experiment more cleanly, but A's redundant status clause is a minor stylistic issue rather than a substantial difference warranting a forced winner."
+    ]
+  },
+  "preserve_voice": {
+    "per_candidate": {
+      "A": {
+        "pass": true,
+        "substantive_issues": [],
+        "minor_issues": []
+      },
+      "B": {
+        "pass": true,
+        "substantive_issues": [],
+        "minor_issues": []
+      }
+    },
+    "preference": ["A", "B"],
+    "reasons": [
+      "The outputs are identical and preserve the already-correct passage unchanged. This satisfies the explicit minimal-edit instruction while retaining the author's first-person voice, emphasis, sentence rhythm, and scientific qualification."
+    ]
+  }
+}

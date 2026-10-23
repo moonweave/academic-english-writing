@@ -1,0 +1,29 @@
+[
+  {
+    "id": "grammar_only",
+    "request": "Correct English grammar only. Preserve the two-sentence structure, technical terms, numbers, units and scientific meaning. Return only the corrected passage.",
+    "input": "The specimens was cooled from 130 °C to 20 °C at 4 °C/min, and their mass were recorded before immersion. Each specimen were then immersed in toluene for 24 h; the resulting mass changes does not, by itself, establish network degradation.",
+    "anonymous_outputs": {
+      "A": "The specimens were cooled from 130 °C to 20 °C at 4 °C/min, and their mass was recorded before immersion. Each specimen was then immersed in toluene for 24 h; the resulting mass changes do not, by themselves, establish network degradation.",
+      "B": "The specimens were cooled from 130 °C to 20 °C at 4 °C/min, and their mass was recorded before immersion. Each specimen was then immersed in toluene for 24 h; the resulting mass changes do not, by themselves, establish network degradation."
+    }
+  },
+  {
+    "id": "paragraph_revision",
+    "request": "Revise this Results/Discussion paragraph into natural academic English. Improve its organization and remove promotional or administrative wording. Retain the scientific observations and qualifications, but avoid a checklist of caveats. Do not add results or mechanisms. Return only the revised paragraph.",
+    "input": "This work represents a remarkable advancement in pressure-sensor technology. These measurement boundaries delimit the reported sensor metrics. Five separately prepared devices were measured at 22 °C. The mean sensitivity increased from 0.8 to 1.3 kPa−1 after surface treatment over the pressure range 0–2 kPa. We have not performed a statistical hypothesis test. There was no resolvable change in film thickness. We observed a larger contact area under load by optical imaging after treatment. This means the treatment proves that contact area is the only origin of the improved sensitivity. However, the mechanical modulus was not measured and changes in bulk stiffness therefore cannot be ruled out. A matched-modulus control would help distinguish these explanations. These tests remain proposed work. The sensor was operated for 200 loading cycles at 1 kPa and retained 94% of its initial response. It is not possible to claim long-term durability beyond these conditions.",
+    "anonymous_outputs": {
+      "A": "In five separately prepared devices measured at 22 °C, the mean sensitivity increased from 0.8 to 1.3 kPa−1 after surface treatment over the pressure range 0–2 kPa; no statistical hypothesis test was performed. Optical imaging showed a larger contact area under load after treatment, with no resolvable change in film thickness. These observations are consistent with a contribution from increased contact area, but they do not establish it as the sole cause of the sensitivity increase: mechanical modulus was not measured, leaving changes in bulk stiffness as a possible explanation. A matched-modulus control could help distinguish these explanations, but has not yet been performed. The sensor retained 94% of its initial response after 200 loading cycles at 1 kPa, demonstrating response retention under these conditions without establishing long-term durability.",
+      "B": "Across five separately prepared devices measured at 22 °C, surface treatment increased the mean sensitivity from 0.8 to 1.3 kPa−1 over the pressure range 0–2 kPa, although the statistical significance of this increase was not tested. Optical imaging showed a larger contact area under load after treatment, with no resolvable change in film thickness. The larger contact area may contribute to the increased sensitivity, but it cannot be established as the sole cause because the mechanical modulus was not measured and changes in bulk stiffness cannot be ruled out. A matched-modulus control would help distinguish these explanations. The sensor retained 94% of its initial response after 200 loading cycles at 1 kPa; this result does not establish long-term durability beyond the tested conditions."
+    }
+  },
+  {
+    "id": "preserve_voice",
+    "request": "Check this passage for academic English. Make changes only if needed for correctness or clarity; preserve the author’s voice, emphasis and sentence rhythm. Return only the passage.",
+    "input": "The interface, rather than the bulk film, set the limit on adhesion. We reached this conclusion by changing the surface treatment while keeping the film formulation and cure unchanged. Untreated specimens separated at the interface; treated specimens failed within the film. The result does not identify the bonding mechanism, but it locates the weakest link under the conditions tested. For this system, that distinction is enough to guide the next experiment.",
+    "anonymous_outputs": {
+      "A": "The interface, rather than the bulk film, set the limit on adhesion. We reached this conclusion by changing the surface treatment while keeping the film formulation and cure unchanged. Untreated specimens separated at the interface; treated specimens failed within the film. The result does not identify the bonding mechanism, but it locates the weakest link under the conditions tested. For this system, that distinction is enough to guide the next experiment.",
+      "B": "The interface, rather than the bulk film, set the limit on adhesion. We reached this conclusion by changing the surface treatment while keeping the film formulation and cure unchanged. Untreated specimens separated at the interface; treated specimens failed within the film. The result does not identify the bonding mechanism, but it locates the weakest link under the conditions tested. For this system, that distinction is enough to guide the next experiment."
+    }
+  }
+]

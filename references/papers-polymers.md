@@ -10,6 +10,8 @@ Marc Guerre et al. (2020), “Vitrimers: directing chemical reactivity to contro
 
 **Locator:** Cross-link density of vitrimer matrices, comparison paragraph. **Source fragment:** “the opposite phenomenon was reported”.
 
+**Structure (editorial schematic, not a quotation):** [reported trend in one study] -> [contrast] -> [opposite result subject] + [was reported]. A later [may + explanation] clause belongs to interpretation, not the report itself.
+
 **How it works:** An attribution passive names a literature observation; contrast then separates it from the preceding report. An interpretive clause should be attributed or hedged independently. Preserve who found what instead of merging different studies into one general law.
 
 **Original application:** Study A reported slower relaxation at higher crosslink density, whereas Study B found the reverse trend. Different exchange chemistries may contribute to this difference.
@@ -19,6 +21,8 @@ Marc Guerre et al. (2020), “Vitrimers: directing chemical reactivity to contro
 ### P1b: Keep a recommendation beside its cost
 
 **Locator:** Partial irreversible cross-linking of the vitrimer matrix. **Source fragment:** “However, the strategy was not equally effective”.
+
+**Structure (editorial schematic, not a quotation):** [benefit] -> [However + definite intervention subject + was not + effectiveness complement + scope]. Cost or range limits stay adjacent to the recommendation.
 
 **How it works:** However opens a scope restriction after a benefit. The strategy is a definite reference to an already introduced intervention. Follow with the range or cost that determines where the recommendation holds, rather than a generic final caveat.
 
@@ -34,6 +38,8 @@ Botuo Zheng et al. (2024), “Structural evolution during inverse vulcanization,
 
 **Locator:** Inverse vulcanization curves of crosslinker monomers, Fig. 2a. **Source fragment:** “As the reaction proceeded”.
 
+**Structure (editorial schematic, not a quotation):** [As + process subject + past verb], [observable subject + past verb + trend]. A later interpretation is a separate assertion; temporal order alone does not supply its cause.
+
 **How it works:** A temporal subordinate clause locates an observation without asserting its cause. Keep temporal order distinct from the subsequent inference about network structure. Past tense reports the recorded series; present can describe the plotted curve.
 
 **Original application:** As irradiation continued, the viscosity first increased and then approached a plateau. This sequence is consistent with a slowing structural change.
@@ -44,6 +50,8 @@ Botuo Zheng et al. (2024), “Structural evolution during inverse vulcanization,
 
 **Locator:** same subsection, complementary frequency-sweep comparison. **Source fragment:** “Excluding the potential cavities through hot-pressing”.
 
+**Structure (editorial schematic, not a quotation):** Source construction: [fronted -ing clause describing removal of a possible artifact], [results subject + inference verb + conclusion + qualification]. Optional recast: [To assess alternative], [we performed check]; [bounded result]. This recast is an editorial alternative, not source wording.
+
 **How it works:** A purpose/check/result sequence connects the alternative explanation to the next measurement. The source uses a fronted participial phrase; in a new manuscript, a finite purpose clause can make agency and logical scope clearer without implying that an artifact was fully excluded.
 
 **Original application:** To assess a possible edge-drying artifact, we repeated the measurement with a sealed edge. The trend persisted, although the late-time values differed.
@@ -52,7 +60,9 @@ Botuo Zheng et al. (2024), “Structural evolution during inverse vulcanization,
 
 ### P2c: Preserve the procedure that defines an extracted property
 
-**Locator:** Methods > Characterization > Differential scanning calorimetry. **Source fragment:** “The DSC curve in the second heating cycle”.
+**Locator:** Methods > Characterization > Differential scanning calorimetry. **Source fragment:** “The DSC curve in the second heating cycle is presented”.
+
+**Structure (editorial schematic, not a quotation):** [sample + was heated ... cooled ... reheated] -> [specified-cycle curve + is presented + extraction purpose]. Past procedure and present reference to the displayed curve have different jobs.
 
 **How it works:** A method paragraph gives chronological thermal steps before naming the trace used for extraction. Past passive focuses the sample and procedure; the definite second cycle resolves which measurement produced the reported property.
 
@@ -68,6 +78,8 @@ Ryoga Hojo et al. (2026), “Imidazophenothiazine-based photocatalysts enable th
 
 **Locator:** Synthesis of an improved O-ATRP photocatalyst, final portion. **Source fragment:** “The synthesis followed a modified procedure”.
 
+**Structure (editorial schematic, not a quotation):** [definite synthesis subject] + [followed] + [modified-procedure object], [participial phrase identifying the modification’s purpose]. Purpose does not establish the modification’s success.
+
 **How it works:** A definite synthesis refers back to the target already introduced. A past-tense route statement is followed by the purpose of the modification. Keep the design hypothesis distinct from the reaction performed and from its measured consequence.
 
 **Original application:** The ligand was prepared by modifying the reported coupling route to introduce a solubilizing side chain. Its effect on solubility was assessed separately.
@@ -76,7 +88,9 @@ Ryoga Hojo et al. (2026), “Imidazophenothiazine-based photocatalysts enable th
 
 ### P3b: Separate identity evidence from functional inference
 
-**Locator:** same synthesis subsection, final sentence. **Source fragment:** “The purity and structure”.
+**Locator:** same synthesis subsection, final sentence. **Source fragment:** “The purity and structure of SMAT-Ph-IPTZ were confirmed by X-ray crystallography”.
+
+**Structure (editorial schematic, not a quotation):** [compound subject: analytical targets] + [were confirmed] + [by + method list]. The quoted clause contains the first method; other methods follow in parallel in the source. Infer only what the actual analyses support.
 
 **How it works:** A compound subject groups the characterization targets; the passive leads into a parallel list of techniques. Attach each conclusion only to the measurements that support it. Do not let an analytical-method list imply a measured functional advantage.
 

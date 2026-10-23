@@ -10,6 +10,8 @@ Sebastian Pazos et al. (2025), “Synaptic and neural behaviours in a standard s
 
 **Locator:** abstract contribution sentences. **Source fragment:** “if biased in a specific (unconventional) manner”.
 
+**Structure (editorial schematic, not a quotation):** Full relationship: [device subject + capability predicate], if [same device + is biased + regime]. The source fragment omits the repeated subject and auxiliary; the schematic restores the implicit grammar.
+
 **How it works:** A conditional passive places the operating regime inside the capability assertion. The main clause can remain direct because the if-clause already bounds it. If changing the clause position, keep its referent and scope attached to the same component.
 
 **Original application:** The oscillator generated a stable pulse train when operated at a 0.8 V supply.
@@ -19,6 +21,8 @@ Sebastian Pazos et al. (2025), “Synaptic and neural behaviours in a standard s
 ### E1b: Describe the added component before its added function
 
 **Locator:** abstract and Main final contribution paragraph. **Source fragment:** “By connecting one additional CMOS transistor in series”.
+
+**Structure (editorial schematic, not a quotation):** [By + gerund + intervention], [same actor subject + action + resulting structure], [relative clause giving that structure’s function]. Check that the fronted clause has the intended actor.
 
 **How it works:** A by-gerund clause specifies the intervention and must share its actor with the main clause. Name the resulting structure before using a relative clause to give its function. Avoid a dangling modifier that makes the measurement perform the intervention.
 
@@ -34,6 +38,8 @@ Giacomo Indiveri et al. (2011), “Neuromorphic Silicon Neuron Circuits,” Fron
 
 **Locator:** Section 2 opening and Section 3.1 first description. **Source fragment:** “From the functional point of view”.
 
+**Structure (editorial schematic, not a quotation):** [functional framing adjunct], [system subject + contains + parallel block descriptions]. [Named block] -> [specific implementation]. The quoted adjunct frames the definitions; it does not contain them.
+
 **How it works:** A framing adjunct announces the abstraction level. Parallel noun/relative-clause structures assign responsibilities; the implementation sentence then reuses the established block name. This limits unexplained switches between algorithm, block and transistor.
 
 **Original application:** The receiver comprises an input stage that converts current to voltage and a filter that limits the signal bandwidth. The input stage uses resistive feedback.
@@ -42,7 +48,9 @@ Giacomo Indiveri et al. (2011), “Neuromorphic Silicon Neuron Circuits,” Fron
 
 ### E2b: Compare designs with a stable grammatical frame
 
-**Locator:** Section 5, Table 2 discussion. **Source fragment:** “The specific choice of design style”.
+**Locator:** Section 5, Table 2 discussion. **Source fragment:** “The specific choice of design style and SiN circuit to use depends on its application”.
+
+**Structure (editorial schematic, not a quotation):** [definite choice subject + design alternatives] + [depends on] + [application]. Adjacent [whereas/while comparisons] supply the axes on which the choice depends.
 
 **How it works:** A definite noun phrase refers to the preceding alternatives. Contrastive clauses compare the same dimensions in parallel, then make selection depend on application requirements. A preference becomes conditional rather than absolute.
 
@@ -58,6 +66,8 @@ C. E. Shannon (1948), “A Mathematical Theory of Communication,” Bell System 
 
 **Locator:** Introduction, corrected reprint pp. 1–2. **Source fragment:** “It consists of essentially five parts”.
 
+**Structure (editorial schematic, not a quotation):** [defined system subject] + [consists of] + [component count/list]. Parallel component definitions retain the same terms in subsequent sentences.
+
 **How it works:** A definitional present-tense assertion is followed by parallel component definitions. Each term retains one meaning as the exposition moves from physical system to mathematical representation. Do not introduce synonyms for a defined object merely to vary prose.
 
 **Original application:** The link comprises a transmitter, a channel and a receiver. The transmitter maps symbols to waveforms; the receiver estimates the transmitted symbols.
@@ -67,6 +77,8 @@ C. E. Shannon (1948), “A Mathematical Theory of Communication,” Bell System 
 ### E3b: Give independent reasons for a representation
 
 **Locator:** Introduction, corrected reprint p. 1. **Source fragment:** “The logarithmic measure is more convenient for various reasons”.
+
+**Structure (editorial schematic, not a quotation):** [representation subject] + [is + evaluative complement] + [reason-introducing phrase]. [Reason 1] / [Reason 2] / [Reason 3] have distinct argumentative functions.
 
 **How it works:** A choice statement precedes parallel reasons with distinct logical jobs. Keep practical motivation separate from mathematical consequences; do not make a list of near-synonymous importance claims. Use a proof where the argument requires one.
 
@@ -78,11 +90,13 @@ C. E. Shannon (1948), “A Mathematical Theory of Communication,” Bell System 
 
 Mirosław Firlej et al. (2023 preprint), “Ultra-low power 10-bit 50-90 MSps SAR ADCs in 65 nm CMOS for multi-channel ASICs.” [Versioned source](https://arxiv.org/abs/2312.14592v1); [PDF](https://arxiv.org/pdf/2312.14592v1). Printed page numbers exclude front matter. Only measurement passages selected; publisher-edition wording is not claimed.
 
-### E4a: Name the independent variable and the fixed stimulus
+### E4a: Name the sweep variable and stimulus convention
 
 **Locator:** Section 3.2, printed p. 9, Fig. 10 discussion. **Source fragment:** “as a function of the sampling frequency”.
 
-**How it works:** A measured-quantity passive identifies the response, while as a function of names the sweep variable and an at-phrase fixes the stimulus. Subsequent sentences can report the trend without repeating an ambiguous “frequency.”
+**Structure (editorial schematic, not a quotation):** [response subject + was measured] + [as a function of sweep variable] + [at a specified stimulus convention]. In the source, the stimulus is a fixed fraction of Nyquist, so its absolute frequency varies with sampling rate; “fixed” must not imply a constant input frequency.
+
+**How it works:** A measured-quantity passive identifies the response, while as a function of names the sweep variable and an at-phrase specifies the stimulus convention, whether an absolute value or a ratio. Subsequent sentences can report the trend without repeating an ambiguous “frequency.”
 
 **Original application:** The amplifier gain was measured as a function of temperature at a fixed input frequency of 10 kHz. Gain decreased above 60 °C.
 
@@ -90,7 +104,9 @@ Mirosław Firlej et al. (2023 preprint), “Ultra-low power 10-bit 50-90 MSps SA
 
 ### E4b: Make the power boundary visible before comparison
 
-**Locator:** Section 3.3, printed p. 11, Fig. 12 discussion. **Source fragment:** “Contributions to the total power of key ADC blocks”.
+**Locator:** Section 3.3, printed p. 11, Fig. 12 discussion. **Source fragment:** “Contributions to the total power of key ADC blocks are presented”.
+
+**Structure (editorial schematic, not a quotation):** [plural component-contribution subject] + [are presented] + [figure location]. The following comparison singles out the changed component before contrasting totals.
 
 **How it works:** A plural subject organizes component contributions; a following comparison identifies which contribution changes. Use the same denominator and circuit boundary before contrasting totals. A figure-reference present tense can accompany past-tense measurement conditions.
 
