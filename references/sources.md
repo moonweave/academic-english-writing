@@ -12,4 +12,4 @@ Domain checks, original examples, and workflow are editorial synthesis, not sour
 
 ## Research examples
 
-See [paper-patterns.md](paper-patterns.md) for passage-specific provenance and access limitations. Nine papers supply nineteen patterns; full text was accessible and the named passages were closely inspected. Selections are editorial judgments, not a ranking or user endorsement. See selection-rationale.md for exclusions and coverage limits. No complete paper was copied into this skill.
+See [paper-patterns.md](paper-patterns.md) for passage-specific provenance and access limitations. Eleven papers supply twenty-one patterns. For nine sources, full text was accessible and the named passages were closely inspected; M3 (Zhao 2024) and P4 (Cheng 2024) were inspected at abstract level only. Selections are editorial judgments, not a ranking or user endorsement. See selection-rationale.md for exclusions and coverage limits. No complete paper was copied into this skill.
