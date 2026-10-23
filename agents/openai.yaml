@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic English Writing"
+  short_description: "Evidence-faithful academic drafting and revision"
+  default_prompt: "Use $academic-english-writing to draft or revise this passage in clear academic English while preserving its scientific meaning."
