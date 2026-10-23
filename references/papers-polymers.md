@@ -1,8 +1,8 @@
-# Polymers: seven operational patterns
+# Polymers: three core and five auxiliary patterns
 
 Editorial analyses inspected 2026-10-23. Short quotations identify source wording; ellipses are not used to reconstruct long passages. Grammatical analyses and abstract schemata are editorial interpretations. Every application sentence below is an original invented teaching example, not a source finding or a reusable data claim. Choose a pattern because it serves the argument; do not insert every pattern or copy a source’s distinctive wording.
 
-## P1 — source
+## P1 — core source
 
 Marc Guerre et al. (2020), “Vitrimers: directing chemical reactivity to control material properties,” Chemical Science. [DOI](https://doi.org/10.1039/D0SC01069C); [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC8159211/). Europe PMC XML inspected. Minireview: distinguish cited findings from the authors’ experiments.
 
@@ -30,7 +30,7 @@ Marc Guerre et al. (2020), “Vitrimers: directing chemical reactivity to contro
 
 **Limits:** The trade-off and application priority must be supported. Do not convert a relative benefit into a universal recommendation.
 
-## P2 — source
+## P2 — auxiliary source
 
 Botuo Zheng et al. (2024), “Structural evolution during inverse vulcanization,” Nature Communications. [DOI](https://doi.org/10.1038/s41467-024-49374-y); [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC11217493/). Europe PMC XML inspected. Local argument and method examples; not a blanket grammar model.
 
@@ -70,7 +70,7 @@ Botuo Zheng et al. (2024), “Structural evolution during inverse vulcanization,
 
 **Limits:** These are invented conditions. Retain the supplied ramps, holds, atmosphere, cycle and extraction convention; do not add an unstated criterion for the transition.
 
-## P3 — source
+## P3 — auxiliary source
 
 Ryoga Hojo et al. (2026), “Imidazophenothiazine-based photocatalysts enable the organocatalyzed atom-transfer radical polymerization of styrene,” Chemical Science. [DOI](https://doi.org/10.1039/D6SC03956A); [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC13459050/). Europe PMC XML inspected; synthesis and characterization passages selected, not an endorsement of all mechanistic claims.
 
@@ -97,3 +97,20 @@ Ryoga Hojo et al. (2026), “Imidazophenothiazine-based photocatalysts enable th
 **Original application:** The product was characterized by proton NMR spectroscopy and high-resolution mass spectrometry. Agreement with the expected signals supports the assigned molecular structure.
 
 **Limits:** Use the supplied analytical results. Identity does not establish bulk purity, polymer sequence, conversion, or photocatalytic mechanism; stronger claims need their own evidence.
+
+
+## P4 — core source, abstract only
+
+Yiren Cheng et al. (2024), “Mechanically strong yet metabolizable supramolecular plastics by desalting upon phase separation,” Science 386, 875–881. [DOI](https://doi.org/10.1126/science.ado1782); [author institution reproducing the abstract](https://www.tc.u-tokyo.ac.jp/en/13642/). Abstract inspected 2026-10-23. Repository PDF retrieval was unreliable; body-level analysis is not claimed. Provisional editorial selection; see [attention evidence](selection-rationale.md).
+
+### P4a: Put the exception inside the stability assertion
+
+**Locator:** abstract, salt-bridging sentence, final relative clause. **Source fragment:** “which is stable unless electrolytes are resupplied”.
+
+**Structure (editorial schematic, not a quotation):** [formation statement + network], [which + is + property], unless [trigger subject + passive predicate]. The relative clause describes the network; unless bounds its property.
+
+**How it works:** A present-tense property assertion keeps its exception in the same grammatical unit. This avoids separating a favorable headline from the condition that changes its meaning.
+
+**Original application:** The membrane retained its shape unless the bath temperature exceeded 60 °C.
+
+**Limits:** This invented example requires measurements covering that conditional statement; a single successful test supports “retained its shape at 25 °C,” not an exhaustive unless claim. Do not infer environmental safety from dissolution or reuse the abstract's novelty adjectives as a style target.

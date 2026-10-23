@@ -1,0 +1,70 @@
+{
+  "checked": "2026-10-23",
+  "metric": "Crossref is-referenced-by-count; database coverage differs from total citations; not a prose score or a field-normalized ranking",
+  "records": [
+    {
+      "id": "M1",
+      "doi": "10.1038/nature11409",
+      "title": "Highly stretchable and tough hydrogels",
+      "crossref_referenced_by": 5417,
+      "checked": "2026-10-23",
+      "source": "https://api.crossref.org/works/10.1038/nature11409"
+    },
+    {
+      "id": "M2",
+      "doi": "10.1126/science.1102896",
+      "title": "Electric Field Effect in Atomically Thin Carbon Films",
+      "crossref_referenced_by": 63645,
+      "checked": "2026-10-23",
+      "source": "https://api.crossref.org/works/10.1126/science.1102896"
+    },
+    {
+      "id": "M3",
+      "doi": "10.1038/s41586-023-06811-0",
+      "title": "Ultrahigh-mobility semiconducting epitaxial graphene on silicon carbide",
+      "crossref_referenced_by": 190,
+      "checked": "2026-10-23",
+      "source": "https://api.crossref.org/works/10.1038/s41586-023-06811-0"
+    },
+    {
+      "id": "P1",
+      "doi": "10.1039/D0SC01069C",
+      "title": "Vitrimers: directing chemical reactivity to control material properties",
+      "crossref_referenced_by": 645,
+      "checked": "2026-10-23",
+      "source": "https://api.crossref.org/works/10.1039/D0SC01069C"
+    },
+    {
+      "id": "P4",
+      "doi": "10.1126/science.ado1782",
+      "title": "Mechanically strong yet metabolizable supramolecular plastics by desalting upon phase separation",
+      "crossref_referenced_by": 102,
+      "checked": "2026-10-23",
+      "source": "https://api.crossref.org/works/10.1126/science.ado1782"
+    },
+    {
+      "id": "E1",
+      "doi": "10.1038/s41586-025-08742-4",
+      "title": "Synaptic and neural behaviours in a standard silicon transistor",
+      "crossref_referenced_by": 109,
+      "checked": "2026-10-23",
+      "source": "https://api.crossref.org/works/10.1038/s41586-025-08742-4"
+    },
+    {
+      "id": "E2",
+      "doi": "10.3389/fnins.2011.00073",
+      "title": "Neuromorphic Silicon Neuron Circuits",
+      "crossref_referenced_by": 1223,
+      "checked": "2026-10-23",
+      "source": "https://api.crossref.org/works/10.3389/fnins.2011.00073"
+    },
+    {
+      "id": "E3",
+      "doi": "10.1002/j.1538-7305.1948.tb01338.x",
+      "title": "A Mathematical Theory of Communication",
+      "crossref_referenced_by": 56032,
+      "checked": "2026-10-23",
+      "source": "https://api.crossref.org/works/10.1002/j.1538-7305.1948.tb01338.x"
+    }
+  ]
+}

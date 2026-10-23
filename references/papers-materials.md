@@ -1,8 +1,8 @@
-# Materials: four operational patterns
+# Materials: five core patterns
 
 Editorial analyses inspected 2026-10-23. Short quotations identify source wording; ellipses are not used to reconstruct long passages. Grammatical analyses and abstract schemata are editorial interpretations. Every application sentence below is an original invented teaching example, not a source finding or a reusable data claim. Choose a pattern because it serves the argument; do not insert every pattern or copy a source’s distinctive wording.
 
-## M1 — source
+## M1 — core source
 
 Jeong-Yun Sun et al. (2012), “Highly stretchable and tough hydrogels,” Nature 489, 133–136. [DOI](https://doi.org/10.1038/nature11409); [publisher PDF hosted by authors](https://suo.seas.harvard.edu/sites/g/files/omnuum4271/files/suo/files/273.pdf). Full text available; named passages inspected.
 
@@ -30,7 +30,7 @@ Jeong-Yun Sun et al. (2012), “Highly stretchable and tough hydrogels,” Natur
 
 **Limits:** Use the second sentence only with evidence for localization. An active verb cannot turn a proposed mechanism into a demonstrated cause.
 
-## M2 — source
+## M2 — core source
 
 K. S. Novoselov et al. (2004), “Electric Field Effect in Atomically Thin Carbon Films,” Science 306, 666–669. [DOI](https://doi.org/10.1126/science.1102896); [author preprint v1](https://arxiv.org/pdf/cond-mat/0410550v1). Analysis applies to this preprint, not a verified word-for-word publisher edition.
 
@@ -57,3 +57,20 @@ K. S. Novoselov et al. (2004), “Electric Field Effect in Atomically Thin Carbo
 **Original application:** The resistance decreased as pressure increased. A contact-area model reproduces this trend, with A denoting the effective contact area.
 
 **Limits:** Reproduces requires a checked model result; visual resemblance alone supports weaker wording. Do not imply uniqueness or fit parameters absent from the supplied evidence.
+
+
+## M3 — core source, abstract only
+
+Jian Zhao et al. (2024), “Ultrahigh-mobility semiconducting epitaxial graphene on silicon carbide,” Nature 625, 60–65. [DOI/publisher abstract](https://doi.org/10.1038/s41586-023-06811-0). Abstract inspected 2026-10-23; subscription body not inspected. Provisional editorial selection; attention evidence is in [the selection record](selection-rationale.md).
+
+### M3a: Define the material state at its first operational use
+
+**Locator:** abstract, sentence introducing the quasi-equilibrium annealing method. **Source fragment:** “that is, a well-ordered buffer layer”.
+
+**Structure (editorial schematic, not a quotation):** [method produces + material label] + [(that is, + defining noun phrase)] + [location]. The quoted phrase is an appositive definition, not a finite clause.
+
+**How it works:** The definition links the new label to an already introduced physical state, before the next sentence reuses the label. Keep the explanatory parenthesis short enough that the main predicate remains readable.
+
+**Original application:** Annealing produced the ordered interphase (that is, the aligned surface layer) along the electrode edge.
+
+**Limits:** The example is invented. Use “that is” only for equivalence; use “for example” for a member of a class. Defining a label does not establish composition or order without characterization. This abstract cannot supply a Results-section model.

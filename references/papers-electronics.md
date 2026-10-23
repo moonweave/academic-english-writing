@@ -1,8 +1,8 @@
-# Electronics: eight operational patterns
+# Electronics: six core and two auxiliary patterns
 
 Editorial analyses inspected 2026-10-23. Short quotations identify source wording; ellipses are not used to reconstruct long passages. Grammatical analyses and abstract schemata are editorial interpretations. Every application sentence below is an original invented teaching example, not a source finding or a reusable data claim. Choose a pattern because it serves the argument; do not insert every pattern or copy a source’s distinctive wording.
 
-## E1 — source
+## E1 — core source
 
 Sebastian Pazos et al. (2025), “Synaptic and neural behaviours in a standard silicon transistor,” Nature 640, 69–76. [DOI/full text](https://www.nature.com/articles/s41586-025-08742-4). Named passages inspected in publisher text during initial curation; publisher access was intermittent on recheck.
 
@@ -30,7 +30,7 @@ Sebastian Pazos et al. (2025), “Synaptic and neural behaviours in a standard s
 
 **Limits:** Only use the causal wording with evidence for the intervention. Component behavior does not establish total-system efficiency.
 
-## E2 — source
+## E2 — core source
 
 Giacomo Indiveri et al. (2011), “Neuromorphic Silicon Neuron Circuits,” Frontiers in Neuroscience. [DOI/full text](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2011.00073/full). Review; named passages inspected in publisher full text.
 
@@ -58,7 +58,7 @@ Giacomo Indiveri et al. (2011), “Neuromorphic Silicon Neuron Circuits,” Fron
 
 **Limits:** Keep process, workload and accounting comparable. A source’s discussion of design trade-offs cannot establish which option wins for a new application.
 
-## E3 — source
+## E3 — core source
 
 C. E. Shannon (1948), “A Mathematical Theory of Communication,” Bell System Technical Journal 27, 379–423 and 623–656. [Part I DOI](https://doi.org/10.1002/j.1538-7305.1948.tb01338.x); [corrected reprint](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf). Analysis concerns this reprint.
 
@@ -86,7 +86,7 @@ C. E. Shannon (1948), “A Mathematical Theory of Communication,” Bell System 
 
 **Limits:** Only claim comparability when the normalization supports it. Explanation of a representation is not a derivation of its validity.
 
-## E4 — source
+## E4 — auxiliary source
 
 Mirosław Firlej et al. (2023 preprint), “Ultra-low power 10-bit 50-90 MSps SAR ADCs in 65 nm CMOS for multi-channel ASICs.” [Versioned source](https://arxiv.org/abs/2312.14592v1); [PDF](https://arxiv.org/pdf/2312.14592v1). Printed page numbers exclude front matter. Only measurement passages selected; publisher-edition wording is not claimed.
 
