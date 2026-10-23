@@ -55,3 +55,17 @@ Original examples:
 - A transistor response in simulation → “The simulated transistor exhibited…” Do not write “We experimentally demonstrated…”.
 - Core power excluding peripherals → retain that boundary; do not describe it as total system power.
 - Grammar-only: “The devices was measured at room temperature.” → “The devices were measured at room temperature.” Do not invent bias conditions or rewrite the argument.
+
+## Revision scope and manuscript voice
+
+For grammar-only correction, fix the actual grammar and preserve sentence organization, established terminology, numbers, citation anchors and scientific emphasis. For substantive revision, identify the point the paragraph is trying to establish, then change only the ordering or constructions that obstruct it. When prose already works, retaining it is a valid result; do not impose a preferred rhythm, voice or connector.
+
+Evidence checks belong in the editing process. In the manuscript, connect a qualification to the inference it restricts. Do not turn every unperformed measurement into a sentence, but do not omit an explicit scientific limitation from a revision merely to sound confident. A shorter draft from notes may select relevant content according to genre; an edit of an existing manuscript must respect the requested retention scope.
+
+Original teaching examples (no research evidence):
+
+- Administrative: “These measurement boundaries delimit the reported amplifier metrics.” → Direct accounting, when supplied: “The reported power excludes the external bias circuit.” The second sentence tells the reader what the number includes.
+- Status report: “The isotope experiment remains proposed work.” → Scientific role, when supplied: “Isotope labeling would distinguish the two pathways.” The modal already makes its prospective status clear; it must not imply that the experiment was performed.
+- Disconnected caution: “There are limitations. The bonding mechanism is unknown.” → Local qualification: “The adhesion increase does not identify the bonding mechanism.” This preserves the uncertainty while stating which inference is unsupported.
+
+These are decisions, not forbidden phrases. Retain explicit status wording when the deliverable is a review response, plan, progress report, or when the reader otherwise could mistake proposed work for a completed test. Do not add a negative comparison to prior work unless that comparison is relevant to the claim being made.

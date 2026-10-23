@@ -12,7 +12,7 @@ This skill supplies instructions and a curated reference library. It does not fi
 ## Choose the work from the request
 
 - **Draft:** turn supplied evidence, figures, an outline, or Korean notes into English prose. Ask for indispensable missing results instead of manufacturing them.
-- **Revise:** preserve the author's argument and requested edit depth. Correct grammar without restructuring when asked for a grammar-only edit.
+- **Revise:** distinguish grammar-only correction, substantive revision, and light editing of already effective prose. Keep the requested scope; do not restructure a grammar-only task or rewrite sound prose merely to display a pattern. For substantive revision, diagnose the paragraph’s intended point before changing its order.
 - **Learn from papers:** read [reference-intake.md](references/reference-intake.md), inspect accessible source text, and add attributed analytical entries only when the user requests library expansion. Reading a paper for one task does not authorize persistent library changes.
 
 For drafting or substantive revision, read [writing-decisions.md](references/writing-decisions.md). Consult [paper-patterns.md](references/paper-patterns.md), then read the matching domain file(s). Choose the one or two patterns that solve the current rhetorical problem, rather than reproducing the source’s subject matter or applying all patterns. Respect its access and selection labels. For demonstrations of editing choices, read [worked-examples.md](references/worked-examples.md) when useful; its numbers are invented teaching data. Use [sources.md](references/sources.md) when provenance matters. Do not load unrelated references.
@@ -36,7 +36,7 @@ Establish what the reader needs before introducing the new result. Place emphasi
 
 Make each paragraph perform a useful task: motivating a measurement, reporting a comparison, interpreting a trend, testing an alternative, or bounding a conclusion. Do not impose the same claim–evidence–implication template on every paragraph.
 
-Use each selected pattern’s source fragment to understand the grammatical relationship, then write a fresh construction for the supplied evidence. The application examples contain invented facts and must never supply manuscript content. Preserve useful author-specific choices; do not normalize every passage to the same voice.
+Use each selected pattern’s complete grammatical unit and labeled editorial schematic to understand the relationship, then write a fresh construction for the supplied evidence. The application examples contain invented facts and must never supply manuscript content. Preserve useful author-specific choices; do not normalize every passage to the same voice.
 
 Select grammar by meaning: tense and aspect for time and evidential status; voice for focus and agency; articles for specificity; clause structure for causal, conditional, and contrastive relationships. Preserve a necessary long sentence rather than splitting away its qualifications.
 
@@ -44,7 +44,9 @@ Remove empty importance statements, unsupported superlatives, redundant transiti
 
 ## Check and deliver
 
-Compare the result with the supplied content for factual drift, lost conditions, claim inflation, ambiguous comparisons, and broken citation placement. Then check paragraph continuity and grammar. Polished prose cannot repair a missing experiment or premise.
+Compare the result with the supplied content for factual drift, lost conditions, claim inflation, ambiguous comparisons, and broken citation placement. In revision, scientific content and requested edit scope constrain stylistic changes; preserve effective author choices and keep correct prose unchanged when no improvement is needed. Then check paragraph continuity and grammar. Polished prose cannot repair a missing experiment or premise.
+
+Keep manuscript prose distinct from editorial commentary. State a limitation where it changes the reading of a result, with the missing evidence and its consequence linked directly. Do not append process-status notes or generic declarations that the work has “boundaries.” Use conditional or future wording for proposed experiments without an extra sentence announcing that they are unperformed. This does not authorize deleting explicit qualifications or the user’s requested content.
 
 Default output: requested English prose first, then brief Korean explanations only for consequential changes or unresolved scientific questions. Follow requests for English-only, tracked edits, or clean prose. Do not append a full audit to every edit or insert writing-guide citations into the manuscript.
 

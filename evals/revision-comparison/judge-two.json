@@ -1,0 +1,67 @@
+{
+  "grammar_only": {
+    "per_candidate": {
+      "A": {
+        "pass": true,
+        "substantive_issues": [],
+        "minor_issues": []
+      },
+      "B": {
+        "pass": true,
+        "substantive_issues": [],
+        "minor_issues": []
+      }
+    },
+    "preference": [
+      "A",
+      "B"
+    ],
+    "reasons": [
+      "The outputs are identical. Both correct subject–verb agreement and the plural reflexive while preserving the two-sentence structure, technical terms, values, units, and scientific meaning. Neither introduces restructuring or commentary."
+    ]
+  },
+  "paragraph_revision": {
+    "per_candidate": {
+      "A": {
+        "pass": true,
+        "substantive_issues": [],
+        "minor_issues": [
+          "The added clause 'but has not yet been performed' repeats the prospective status already conveyed by 'could help' and slightly interrupts the manuscript's flow with process-status commentary."
+        ]
+      },
+      "B": {
+        "pass": true,
+        "substantive_issues": [],
+        "minor_issues": []
+      }
+    },
+    "preference": [
+      "A",
+      "B"
+    ],
+    "reasons": [
+      "Both preserve the device count, temperature, sensitivity values and range, absence of statistical testing, imaging and thickness observations, unresolved stiffness alternative, proposed matched-modulus control, and bounded cycling result. Both appropriately replace the unsupported sole-mechanism claim with a qualified contact-area interpretation; this required correction is not factual drift. Both remove promotional framing and integrate the qualifications into coherent manuscript prose. B is slightly more economical and leaves the proposed control naturally prospective; A's redundant process-status clause is a minor stylistic difference, insufficient to force a winner."
+    ]
+  },
+  "preserve_voice": {
+    "per_candidate": {
+      "A": {
+        "pass": true,
+        "substantive_issues": [],
+        "minor_issues": []
+      },
+      "B": {
+        "pass": true,
+        "substantive_issues": [],
+        "minor_issues": []
+      }
+    },
+    "preference": [
+      "A",
+      "B"
+    ],
+    "reasons": [
+      "The outputs are identical to each other and to the input. The passage is already grammatically correct and clear, so leaving it unchanged satisfies the request and preserves its voice, emphasis, and sentence rhythm."
+    ]
+  }
+}

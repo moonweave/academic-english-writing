@@ -2,7 +2,7 @@
 
 Nine papers, nineteen operational patterns. Inspected 2026-10-23. Full source text was accessible during curation; only named passages were closely analyzed. This is not complete scientific validation or an external ranking of papers.
 
-Every pattern provides a short source fragment, a precise location, an explanation of clause/tense/focus choices, an original application on different content, and transfer limits. The grammatical analysis is editorial interpretation. All application sentences and their data are invented teaching examples, never manuscript evidence.
+Every pattern provides a short source fragment, a precise location, a labeled editorial structure diagram, an explanation of clause/tense/focus choices, an original application on different content, and transfer limits. The grammatical analysis is editorial interpretation. All application sentences and their data are invented teaching examples, never manuscript evidence.
 
 | File | Papers | Patterns | Choose for |
 | --- | --- | --- | --- |

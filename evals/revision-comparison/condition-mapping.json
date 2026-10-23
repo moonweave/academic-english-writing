@@ -1,0 +1,14 @@
+{
+  "grammar_only": {
+    "A": "after",
+    "B": "before"
+  },
+  "paragraph_revision": {
+    "A": "before",
+    "B": "after"
+  },
+  "preserve_voice": {
+    "A": "after",
+    "B": "before"
+  }
+}

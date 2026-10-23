@@ -8,7 +8,9 @@ Jeong-Yun Sun et al. (2012), “Highly stretchable and tough hydrogels,” Natur
 
 ### M1a: Lead with the limitation, emphasize the result
 
-**Locator:** p. 133, opening paragraph. **Source fragment:** “Although such gels contain”.
+**Locator:** p. 133, opening paragraph. **Source fragment:** “they can be stretched beyond 20 times their initial length”.
+
+**Structure (editorial schematic, not a quotation):** Quoted source clause: [subject] + [can be + past participle] + [extent complement]. In context: [Although + subject + verb + property], [main assertion]. The main assertion receives the emphasis.
 
 **How it works:** Concessive subordinate clause → main assertion. The present-tense concession establishes an unfavorable property; the main clause receives the informative stress. Keep the qualification subordinate only if the result is the intended focus.
 
@@ -18,7 +20,9 @@ Jeong-Yun Sun et al. (2012), “Highly stretchable and tough hydrogels,” Natur
 
 ### M1b: Give interacting components explicit roles
 
-**Locator:** p. 136, notched hybrid-gel mechanism paragraph. **Source fragment:** “bridges the crack and stabilizes deformation”.
+**Locator:** p. 136, notched hybrid-gel mechanism paragraph. **Source fragment:** “the polyacrylamide network bridges the crack and stabilizes deformation”.
+
+**Structure (editorial schematic, not a quotation):** [component subject] + [active verb + object] + and + [active verb + object]. Both predicates share the named subject; no hidden actor is needed.
 
 **How it works:** A concrete network subject governs coordinated active verbs. The next sentence can pick up the process rather than introduce an unexplained “this.” Present tense expresses the proposed explanatory model, not necessarily a universal fact.
 
@@ -34,6 +38,8 @@ K. S. Novoselov et al. (2004), “Electric Field Effect in Atomically Thin Carbo
 
 **Locator:** preprint p. 1, first main paragraph. **Source fragment:** “However, this would require atomically thin metal films”.
 
+**Structure (editorial schematic, not a quotation):** [However], [anaphoric subject] + [would require] + [required object], because [physical reason]. The quote is the requirement clause; the schematic summarizes the adjacent explanation.
+
 **How it works:** Contrast marker → conditional-modal requirement → because-clause giving the obstacle. Would marks what the proposed route would require; it does not describe an experiment already performed.
 
 **Original application:** Reducing the electrode spacing would shorten the transport path, but it would also require insulation that remains intact during bending.
@@ -43,6 +49,8 @@ K. S. Novoselov et al. (2004), “Electric Field Effect in Atomically Thin Carbo
 ### M2b: Introduce a model after its observables
 
 **Locator:** preprint p. 2, Fig. 2 discussion. **Source fragment:** “Our measurements can be explained quantitatively by a model”.
+
+**Structure (editorial schematic, not a quotation):** [observations] -> [measurement subject] + [can be explained] + [by a model]. [Relation] -> [immediate symbol definitions]. This is an explanatory claim, not proof of uniqueness.
 
 **How it works:** Observation sentences precede a model sentence; the modal passive can be explained identifies explanatory adequacy. Define symbols immediately after the governing relation. This order gives the reader an observable to interpret before the abstraction.
 
