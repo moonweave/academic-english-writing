@@ -2,7 +2,7 @@
 
 A Codex skill for drafting and revising clear research prose in **materials science, polymers, and electronic engineering**.
 
-It combines writing decisions, original worked examples, and **14 passage-level patterns from 7 research, review, and theory papers**. Patterns record what the sentence or paragraph accomplishes, how grammar supports that purpose, and when the pattern would overclaim.
+It combines writing decisions, original worked examples, and **19 operational patterns from 9 research, review, and theory papers**. Each pattern pairs a short source fragment with clause/tense/focus analysis, an original application on different content, and transfer limits.
 
 This is an instruction and reference library, not a fine-tuned model. “Natural writing” means precise, coherent prose with a specific scientific argument. It does not mean detector evasion or decorative synonym replacement.
 
@@ -42,17 +42,17 @@ Grammar-only requests remain grammar-only. Missing experiments, numerical result
 
 - [Skill instructions](SKILL.md)
 - [Writing and grammar decisions](references/writing-decisions.md)
-- [Seven-paper pattern index](references/paper-patterns.md)
-- [Why these papers, and why seven](references/selection-rationale.md)
+- [Nine-paper pattern index](references/paper-patterns.md)
+- [Why these papers, and why nine](references/selection-rationale.md)
 - [Original worked examples](references/worked-examples.md)
 - [Source-intake procedure](references/reference-intake.md)
 - [Writing-guide provenance](references/sources.md)
-- [Behavioral cases](references/smoke-cases.md) and [manual review](evals/manual-review.md)
+- [Behavioral cases](references/smoke-cases.md) and [historical self-review](evals/manual-review.md); [comparative protocol](evals/protocol.md)
 
 The library selects useful passages, not papers declared universally excellent. Some entries model argument structure only. Source version, access scope, location, and transfer limits are recorded. Paper PDFs, unpublished manuscripts, and private research data are not distributed.
 
 ## Verification and limits
 
-Skill frontmatter, local reference links, unfinished scaffolds, whitespace, and secret scanning are checked locally. Behavioral cases are reviewed by the authoring agent; this is not an independent or blinded quality evaluation. No CI workflow or cross-model benchmark is included in this initial release.
+Skill frontmatter, local reference links, unfinished scaffolds, whitespace, and secret scanning are checked locally. The historical smoke cases were self-reviewed. A separate comparison uses isolated no-skill, old-skill and revised-skill writers with anonymous outputs and independent evaluators; see the [recorded results](evals/comparison/results.md). This run found no clear overall writing-quality gain; preferences were mixed. This is a small case study, not a cross-model benchmark. No CI workflow is configured.
 
-The seven-paper starting size reflects coverage and overlap judgments, not a measured optimum. RF/ADC measurement narratives and chemistry-specific synthesis prose remain opportunities for expansion. Actual author/journal preferences should guide subsequent curation.
+The nine-paper library size reflects coverage and overlap judgments, not a measured optimum. The revision adds synthesis/characterization exposition, ordered thermal Methods and SAR ADC measurements; RF measurement writing and broader synthetic-procedure coverage remain opportunities for expansion. Actual author/journal preferences should guide subsequent curation.

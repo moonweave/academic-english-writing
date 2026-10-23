@@ -15,7 +15,7 @@ This skill supplies instructions and a curated reference library. It does not fi
 - **Revise:** preserve the author's argument and requested edit depth. Correct grammar without restructuring when asked for a grammar-only edit.
 - **Learn from papers:** read [reference-intake.md](references/reference-intake.md), inspect accessible source text, and add attributed analytical entries only when the user requests library expansion. Reading a paper for one task does not authorize persistent library changes.
 
-For drafting or substantive revision, read [writing-decisions.md](references/writing-decisions.md). Consult [paper-patterns.md](references/paper-patterns.md), then read only the matching domain file. Respect its access and selection labels. For demonstrations of editing choices, read [worked-examples.md](references/worked-examples.md) when useful; its numbers are invented teaching data. Use [sources.md](references/sources.md) when provenance matters. Do not load unrelated references.
+For drafting or substantive revision, read [writing-decisions.md](references/writing-decisions.md). Consult [paper-patterns.md](references/paper-patterns.md), then read the matching domain file(s). Choose the one or two patterns that solve the current rhetorical problem, rather than reproducing the source’s subject matter or applying all patterns. Respect its access and selection labels. For demonstrations of editing choices, read [worked-examples.md](references/worked-examples.md) when useful; its numbers are invented teaching data. Use [sources.md](references/sources.md) when provenance matters. Do not load unrelated references.
 
 Use the supplied section, target journal, and English variety. Otherwise infer them and proceed. Ask only when missing information changes the scientific claim or deliverable. Existing valid prose can remain unchanged.
 
@@ -36,6 +36,8 @@ Establish what the reader needs before introducing the new result. Place emphasi
 
 Make each paragraph perform a useful task: motivating a measurement, reporting a comparison, interpreting a trend, testing an alternative, or bounding a conclusion. Do not impose the same claim–evidence–implication template on every paragraph.
 
+Use each selected pattern’s source fragment to understand the grammatical relationship, then write a fresh construction for the supplied evidence. The application examples contain invented facts and must never supply manuscript content. Preserve useful author-specific choices; do not normalize every passage to the same voice.
+
 Select grammar by meaning: tense and aspect for time and evidential status; voice for focus and agency; articles for specificity; clause structure for causal, conditional, and contrastive relationships. Preserve a necessary long sentence rather than splitting away its qualifications.
 
 Remove empty importance statements, unsupported superlatives, redundant transitions, and repetitive summaries. Do not impose a blacklist of supposedly AI-specific words, mandatory sentence-length variation, deliberate errors, or a blanket ban on passive voice, first person, semicolons, or em dashes. Conventional expressions are acceptable when they do a real job.
@@ -48,4 +50,4 @@ Default output: requested English prose first, then brief Korean explanations on
 
 For learning tasks, deliver attributed pattern entries and explain what was actually inspected and stored. Distinguish verified source observations, editorial interpretations, original teaching examples, and user-endorsed preferences.
 
-After changing this skill, use [smoke-cases.md](references/smoke-cases.md) for behavioral checks. Report structural validation separately from behavioral testing and user acceptance.
+After changing this skill, use [smoke-cases.md](references/smoke-cases.md) for basic evidence-preservation checks and [the comparative evaluation protocol](evals/protocol.md) for substantive writing changes. Report structural validation, independent writing comparisons, and user acceptance separately; a small comparison is not proof of general superiority.

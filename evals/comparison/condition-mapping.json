@@ -1,0 +1,17 @@
+{
+  "abstract": {
+    "A": "new",
+    "B": "baseline",
+    "C": "old"
+  },
+  "discussion": {
+    "A": "baseline",
+    "B": "new",
+    "C": "old"
+  },
+  "results": {
+    "A": "baseline",
+    "B": "old",
+    "C": "new"
+  }
+}
