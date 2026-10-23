@@ -52,7 +52,7 @@ Botuo Zheng et al. (2024), “Structural evolution during inverse vulcanization,
 
 **Structure (editorial schematic, not a quotation):** Source construction: [fronted -ing clause describing removal of a possible artifact], [results subject + inference verb + conclusion + qualification]. Optional recast: [To assess alternative], [we performed check]; [bounded result]. This recast is an editorial alternative, not source wording.
 
-**How it works:** A purpose/check/result sequence connects the alternative explanation to the next measurement. The source uses a fronted participial phrase; in a new manuscript, a finite purpose clause can make agency and logical scope clearer without implying that an artifact was fully excluded.
+**How it works:** A purpose/check/result sequence connects the alternative explanation to the next measurement. The source uses a fronted participial phrase; in a new manuscript, a non-finite purpose clause introduced by to + infinitive can state the check’s purpose, with its understood subject supplied by the explicit main-clause subject (we). This makes agency and logical scope clearer without implying that an artifact was fully excluded.
 
 **Original application:** To assess a possible edge-drying artifact, we repeated the measurement with a sealed edge. The trend persisted, although the late-time values differed.
 
